@@ -33,8 +33,23 @@ jobs:
             # 🟢 Matrix Green
             dist/github-snake-matrix.svg?color_snake=#00FF41&color_dots=#001A00,#004D00,#008F11,#00FF41
 
-            # 🟡 Gold
+            # 🟡 Gold Premium
             dist/github-snake-gold.svg?color_snake=#FFD700&color_dots=#332900,#665200,#B8860B,#FFD700
+
+            # 🌌 Cyberpunk Mix
+            dist/github-snake-cyber.svg?color_snake=#FF00FF&color_dots=#120024,#3B0A75,#0066FF,#00FFFF,#FF00FF
+
+            # 🌈 Aurora
+            dist/github-snake-aurora.svg?color_snake=#00FF99&color_dots=#002B36,#005F73,#00A896,#9B5DE5,#F15BB5
+
+            # 🌌 Galaxy
+            dist/github-snake-galaxy.svg?color_snake=#FFFFFF&color_dots=#10002B,#240046,#5A189A,#9D4EDD,#E0AAFF
+
+            # 🔥 Fire
+            dist/github-snake-fire.svg?color_snake=#FFFF00&color_dots=#330000,#FF0000,#FF6600,#FFCC00,#FFFF00
+
+            # 🌊 Ocean
+            dist/github-snake-ocean.svg?color_snake=#00FFFF&color_dots=#001219,#005F73,#0A9396,#94D2BD,#E9D8A6
 
       - name: Push Snake
         uses: stefanzweifel/git-auto-commit-action@v5
