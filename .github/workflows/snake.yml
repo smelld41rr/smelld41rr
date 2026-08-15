@@ -5,6 +5,9 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -20,9 +23,20 @@ jobs:
           outputs: |
             dist/github-snake.svg?palette=github-dark
             dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-matrix.svg?color_snake=#00ff00&color_dots=#003300,#006600,#00ff00
+
+            # 🟣 Purple Cyber
+            dist/github-snake-purple.svg?color_snake=#B026FF&color_dots=#120024,#3D0066,#7A00CC,#B026FF
+
+            # 🔵 Neon Blue
+            dist/github-snake-blue.svg?color_snake=#00FFFF&color_dots=#001F3F,#003B73,#0074D9,#00FFFF
+
+            # 🟢 Matrix Green
+            dist/github-snake-matrix.svg?color_snake=#00FF41&color_dots=#001A00,#004D00,#008F11,#00FF41
+
+            # 🟡 Gold
+            dist/github-snake-gold.svg?color_snake=#FFD700&color_dots=#332900,#665200,#B8860B,#FFD700
 
       - name: Push Snake
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update Matrix Snake"
+          commit_message: "Update Snake Colors"
