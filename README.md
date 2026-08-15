@@ -1,31 +1,3 @@
-## 🖥️ Hacker Terminal
-
-<div align="center">
-
-```bash
-┌──────────────────────────────────────┐
-│ danish@github:~$                     │
-│                                      │
-│ $ whoami                             │
-│ > Danish Ahmad                       │
-│                                      │
-│ $ role                               │
-│ > Python Developer                   │
-│ > AI Automation Builder              │
-│                                      │
-│ $ skills                             │
-│ > Python       ██████████ 95%        │
-│ > AI Tools     █████████░ 90%        │
-│ > Git          ████████░░ 80%        │
-│ > Automation   █████████░ 90%        │
-│                                      │
-│ $ status                             │
-│ > Building the future 🚀             │
-│                                      │
-│ SYSTEM STATUS: ONLINE 🟢             │
-└──────────────────────────────────────┘
-
-
 
 
 ## 🟣 Purple Cyber Snake
